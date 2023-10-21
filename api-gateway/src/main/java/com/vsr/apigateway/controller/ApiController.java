@@ -3,8 +3,6 @@ package com.vsr.apigateway.controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
-
 @RestController
 public class ApiController {
 	 @GetMapping("/empServiceFallBack")

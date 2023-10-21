@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class ApiController {
 	
 	@GetMapping
-	public String getEmp() {
+	public String getEmp() throws InterruptedException{
 		return " WELCOME TO DEPARTMENT SERVICE";
 	}
 
